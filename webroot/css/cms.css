@@ -1,0 +1,82 @@
+.dd-auth.dropdown-container {
+  position: relative !important;
+  margin-left: 10px;
+}
+
+.dd-auth .dropdown-menu {
+  position: absolute !important;
+  top: 100%; /* Bottom of button */
+  right: 0;
+  margin-left: -150px; /* More to the left */
+}
+
+.filestorage-dd
+{ 
+   text-decoration: none !important;
+}
+
+.filestorage-item
+{    
+    height: 200px;    
+}
+
+.filestorage-item .contain-preview
+{
+   height: 80%;  
+}
+
+.filestorage-item .dropdown-menu
+{
+    top: -20% !important;
+}
+
+.filestorage-dd:after
+{
+    display: none !important;
+}
+
+.filestorage-dd .caption
+{
+    height: 20%;
+    color: #fff;   
+    bottom: 0; 
+}
+
+.filestorage-dd img,
+.filestorage-dd i
+{    
+    max-height: 100%;    
+}
+
+ol.breadcrumb
+{
+    margin-left: 0;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.sidebar ul
+{
+    padding-left: 8px !important;
+    list-style-type: none !important;
+}
+
+.article-comments > div > div:not(:last-of-type)
+{
+    border-bottom: none;
+}
+
+.pagination
+{    
+    margin-top: 16px;
+}
+
+.menu-items a.btn-danger
+{
+    margin-top: 8px !important;
+    margin-left: 4px !important;
+}
