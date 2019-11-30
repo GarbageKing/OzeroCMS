@@ -103,7 +103,7 @@
         <script>
             $(document).ready(function(){
                 globals = {};
-                globals.base_url = <?= $this->request->webroot ?>;
+                globals.base_url = '<?= $this->request->webroot ?>';
                 globals.csrfToken = <?= json_encode($this->request->getParam('_csrfToken')) ?>;
             });
         </script>
