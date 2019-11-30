@@ -1,3 +1,3 @@
 # O0CMS (Ozero CMS)
-Simple 
+Simple   
 Made with CakePHP 3
